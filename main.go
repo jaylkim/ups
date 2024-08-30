@@ -1,6 +1,5 @@
 /*
-Copyright © 2024 NAME HERE <EMAIL ADDRESS>
-
+Copyright © 2024 JK <jay.luke.kim@gmail.com>
 */
 package main
 
