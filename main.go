@@ -30,7 +30,7 @@ func init() {
 		pid INTEGER PRIMARY KEY AUTOINCREMENT,
 		name TEXT NOT NULL,
 		age INTEGER NOT NULL,
-
+		sex TEXT CHECK(sex IN ('M', 'F'))
 	)`)
 	if err != nil {
 		log.Fatal(err)
